@@ -27,7 +27,7 @@ const Home = () => {
     }
 
     return (
-        <div className="w-full h-screen flex flex-col items-center justify-center gap-8 bg-gradient-to-br from-purple-200 to-blue-100">
+        <div className="w-full h-screen flex flex-col items-center justify-center gap-8 bg-gradient-to-br from-teal-400 to-rose-500">
             {fact && (
                 <div className="w-[90%] min-h-[100px] bg-white/30 backdrop-blur-2xl rounded-xl p-6 shadow-lg">
                     <p className="text-lg text-black font-medium">
